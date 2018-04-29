@@ -23,17 +23,17 @@
     <!-- <link href="vender/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
     <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 </head>
 
@@ -73,198 +73,208 @@
 
     <header>
         <div class="header-content">
+            <div class="header-content-left">
+                <h1>Beautiful</h1>
+                <h1>Websites.</h1>
+                <h3>Beautifully Made.</h3>
+            </div>
             <div class="header-content-inner">
-                <h1 id="homeHeading">Welcome To DK Design</h1>
-                <hr>
-                <p>Feel free to have a look around!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+                <div class="headerText">
+                    <h1 id="homeHeading">Welcome To DK Design</h1>
+                    <hr>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll" id="aboutBtn">About Me</a>
+                </div>
             </div>
         </div>
+        <!-- <img src="img/laptop.png" id="laptop"> -->
     </header>
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="img/profile_pic.jpeg" class="profilePic">
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
                     <h2 class="section-heading">About Me</h2>
                     <hr class="light">
-                    <p class="text-faded">I'm a teacher who discovered web development a few years ago, and have loved it ever since. My passions are teaching, coding, and playing music. I'm a rare combination of grammar nut, people person and coder, with an eye for detail and design. Feel free to contact me for more info!</p>
-                    <p class="text-faded">
-<i>"I hired David to build our company website. David met every timeline on his end, showed exceptional communication skills and was professional throughout the process!" - M. Katz, President, Mercury Maintenance Inc. </i></p>
-                    <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Get in touch!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Skills Include:</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Ruby</h3>
-                        <p class="text-muted">I use Ruby on Rails to create powerful back-end software.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>HTML/CSS</h3>
-                        <p class="text-muted">My front-end skills include an eye for design and a focus on user experience.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x  text-primary sr-icons">JS</i>
-                        <h3>Javascript</h3>
-                        <p class="text-muted">This includes many of the popular libraries - jQuery, Angular, etc.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x  text-primary sr-icons">< / ></i>
-                        <h3>PHP/SQL/etc.</h3>
-                        <p class="text-muted">I'm familiar with many of the languages widely used in today's technology - if I'm not already well-versed in whatever your company uses, I can and will be soon!</p>
+                    <p class="aboutP">I'm a teacher who discovered web development a few years ago, and have loved it ever since. My passions are teaching, coding, and playing music. I'm a rare combination of grammar nut, people person and coder, with an eye for detail and design. Feel free to contact me for more info!</p>
+                    <p class="aboutP">
+                        <i>"I hired David to build our company website. David met every timeline on his end, showed exceptional communication skills and was professional throughout the process!" - M. Katz, President, Mercury Maintenance Inc. </i></p>
+                        <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Get in touch!</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-    <h1 class="sectionHeading">My Portfolio</h1>
-    <hr>
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-4">
-                    <a href="https://www.chopandchillny.com" class="portfolio-box" target="blank">
-                        <img src="img/cac.png" class="portfolioImage img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Rails App
-                                </div>
-                                <div class="project-name">
-                                    Chop &amp; Chill
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="http://out-on-the-town.herokuapp.com" class="portfolio-box" target="blank">
-                        <img src="img/oott.png" class="portfolioImage img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Rails App
-                                </div>
-                                <div class="project-name">
-                                    Out On The Town
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="http://mercurymiami.com" class="portfolio-box" target="blank">
-                        <img src="img/mercury.png" class="portfolioImage img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Website
-                                </div>
-                                <div class="project-name">
-                                    Mercury Maintenance, Inc.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <a href="http://musicbymordy.atspace.cc/" class="portfolio-box" target="blank">
-                        <img src="img/mbm.png" class="portfolioImage img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Landing Page
-                                </div>
-                                <div class="project-name">
-                                    Music By Mordy
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> 
-                <div class="col-lg-4 col-sm-4">
-                    <a href="https://davidklaver.github.io/landing-page1/" class="portfolio-box" target="blank">
-                        <img src="img/ootb.png" class="portfolioImage img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Landing Page
-                                </div>
-                                <div class="project-name">
-                                    Out Of The Box
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">My Skills Include:</h2>
+                        <hr class="primary">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                            <h3>Ruby</h3>
+                            <p class="text-muted">I use Ruby on Rails to create powerful back-end software.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                            <h3>HTML/CSS</h3>
+                            <p class="text-muted">My front-end skills include an eye for design and a focus on user experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x  text-primary sr-icons">JS</i>
+                            <h3>Javascript</h3>
+                            <p class="text-muted">This includes many of the popular libraries - jQuery, Angular, etc.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x  text-primary sr-icons">< / ></i>
+                            <h3>PHP/SQL/etc.</h3>
+                            <p class="text-muted">I'm familiar with many of the languages widely used in today's technology - if I'm not already well-versed in whatever your company uses, I can and will be soon!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+        <section class="no-padding" id="portfolio">
+            <h1 class="sectionHeading">My Portfolio</h1>
+            <hr>
+            <div class="container-fluid">
+                <div class="row no-gutter popup-gallery">
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="https://www.chopandchillny.com" class="portfolio-box" target="blank">
+                            <img src="img/cac.png" class="portfolioImage img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Rails App
+                                    </div>
+                                    <div class="project-name">
+                                        Chop &amp; Chill
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="http://out-on-the-town.herokuapp.com" class="portfolio-box" target="blank">
+                            <img src="img/oott.png" class="portfolioImage img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Rails App
+                                    </div>
+                                    <div class="project-name">
+                                        Out On The Town
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="http://mercurymiami.com" class="portfolio-box" target="blank">
+                            <img src="img/mercury.png" class="portfolioImage img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Website
+                                    </div>
+                                    <div class="project-name">
+                                        Mercury Maintenance, Inc.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="http://musicbymordy.atspace.cc/" class="portfolio-box" target="blank">
+                            <img src="img/mbm.png" class="portfolioImage img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Landing Page
+                                    </div>
+                                    <div class="project-name">
+                                        Music By Mordy
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="https://davidklaver.github.io/landing-page1/" class="portfolio-box" target="blank">
+                            <img src="img/ootb.png" class="portfolioImage img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Landing Page
+                                    </div>
+                                    <div class="project-name">
+                                        Out Of The Box
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- <aside class="bg-dark">
+<div class="container text-center">
+<div class="call-to-action">
+<h2>Free Download at Start Bootstrap!</h2>
+<a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+</div>
+</div>
+</aside> -->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="primary">
+                <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x sr-contact"></i>
+                <p><a href="tel:9179681013">(917)968-1013</a></p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                <p><a href="mailto:davidjklaver@gmail.com">davidjklaver@gmail.com</a></p>
             </div>
         </div>
-    </aside> -->
+    </div>
+</section>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p><a href="tel:9179681013">(917)968-1013</a></p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:davidjklaver@gmail.com">davidjklaver@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- jQuery -->
+<script src="vender/jquery/jquery.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="vender/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vender/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vender/bootstrap/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="vender/scrollreveal/scrollreveal.min.js"></script>
+<!-- <script src="vender/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vender/scrollreveal/scrollreveal.min.js"></script>
-    <!-- <script src="vender/magnific-popup/jquery.magnific-popup.min.js"></script> -->
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/creative.min.js"></script>
 
 </body>
 

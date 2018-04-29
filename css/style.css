@@ -1,3 +1,26 @@
+body {
+	overflow-x: hidden;
+}
+
+h3 {
+	/*margin-left: 10%;*/
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+ul.navbar-nav a.page-scroll {
+	color: white;
+}
+
+@media(max-width: 767px) {
+	ul.navbar-nav a.page-scroll {
+		color: black;
+		text-align: center;
+	}
+}
+
 .sectionHeading {
 	text-align: center;
 	margin: 15px auto;
@@ -6,4 +29,131 @@
 .portfolioImage {
 	margin-top: 20px;
 	padding: 10px;
+}
+
+header {
+	width: 100vw;
+	height: 630px;
+	/*background-color: #f55444;*/
+
+	padding-top: 15vh;
+}
+
+.header-content {
+	text-align: center;
+	height: 80vh;
+	width: 100vw;
+	min-height: 560px;
+	min-width: 1000px;
+	position: absolute;
+	/*background-color: green;*/
+}
+
+.header-content-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35vw;
+	height: 80vh;
+	/*background-color: blue;*/
+}
+
+.header-content-left h1 {
+	color: #f55444;
+	font-size: 8vw;
+	margin: 10% 15%;
+}
+
+.header-content-inner {
+	/*min-height: 560px;*/
+	padding-top: 20vh;
+	position: relative;
+	right: -100px;
+	width: 900px; 
+	height: 600px;
+	background: url(../img/laptop.png)no-repeat center center;
+	/*background-size: contain;*/
+	background-position: left;
+	margin-right: 0 !important;
+	/*background-color: yellow;*/
+}
+
+.headerText {
+	position: relative;
+	left: 4vw;
+}
+
+@media(max-width: 1400px) {
+	.header-content-left h1 {
+		font-size: 80px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.header-content-inner {
+		width: 800px;
+	}
+	.header-content-left h1 {
+		font-size: 60px;
+	}
+	#homeHeading {
+		font-size: 48px;
+	}
+}
+
+@media(max-width: 996px) {
+	.header-content-left h1 {
+		font-size: 60px;
+	}
+	#homeHeading {
+		font-size: 36px;
+	}
+}
+
+@media(max-width: 768px) {
+
+	header {
+		height: 400px;
+	}
+	.header-content {
+		padding: 10px !important;
+		height: 400px;
+	}
+
+	.header-content-inner {
+		width: 99vw;
+		height: 45vh;
+		right: 1vw;
+		background-size: contain;
+		background-position: center;
+		/*background: none;*/
+		/*right: 200px;*/
+	}
+	.header-content-left {
+		display: none;
+	}
+
+	#homeHeading {
+		margin-left: 10vw;
+		width: 60vw;
+
+	}
+
+	.headerText {
+		width: 80vw;
+		left: 10vw;
+		top: -50px;
+	}
+}
+
+#about img {
+	position: relative;
+	width: 50%;
+	margin: 10% 0 0 25%;
+	border-radius: 50%;
+  /*transform: translateY(25%);*/
+}
+
+.aboutP {
+	color: black;
 }
