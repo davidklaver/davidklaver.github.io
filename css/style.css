@@ -71,7 +71,7 @@ header {
 	right: -100px;
 	width: 900px; 
 	height: 600px;
-	background: url(../img/laptop.png)no-repeat center center;
+	background: url(../img/laptop.webp)no-repeat center center;
 	/*background-size: contain;*/
 	background-position: left;
 	margin-right: 0 !important;
