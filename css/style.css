@@ -164,12 +164,20 @@ header {
 	}
 }
 
+
 @keyframes fadeIn {
     from {opacity: 0}
     to {opacity: 1}
 }
 
-/* The element to apply the animation to */
+@media(min-width: 768px) {
+	.header-content-inner {
+		animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+	}
+}
 
 .fadeIn {
 	opacity: 0;
@@ -178,28 +186,28 @@ header {
 .fadeIn1 {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 2.25s;
     animation-fill-mode: forwards;
 }
 
 .fadeIn2 {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 1.75s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
 .fadeIn3 {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 2.5s;
+    animation-delay: 3.75s;
     animation-fill-mode: forwards;
 }
 
 .fadeIn4 {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 4.25s;
     animation-fill-mode: forwards;
 }
 
